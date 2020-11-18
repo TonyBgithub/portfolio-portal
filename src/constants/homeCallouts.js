@@ -11,7 +11,7 @@ const HOME_CALLOUTS = [
       TITLE: 'Antora Developer Portal',
       TAG: '',
       COPY: 'Explore my developer portal, built with Antora and AsciiDoc.',
-      LINK: 'https://tb-apidocs.netlify.app/docs-site/1.0/',
+      LINK: 'https://tb-apidocs.netlify.app/apidocs/1.0/',
     },
     {
       BADGE: 'Sample Article',

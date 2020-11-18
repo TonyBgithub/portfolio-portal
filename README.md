@@ -11,7 +11,7 @@ Hi! Welcome to my GitHub! This is the repo for my documentation portal. To see a
 
 ## Inspiration
 I built this portal using Gatsby, inspired from Twilio's SendgGrid docs. 
-Since my focus was on integration more than design for this project, I used Twilio's style guide. 
+Since my focus was on integration for this project, I used Twilio's style guide for the design.
 
 ## Refactoring
 I have rewritten parts of the code to include React hooks and replaced class components with functional components.

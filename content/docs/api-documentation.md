@@ -4,6 +4,8 @@ navigation:
   show: true
 ---
 
+In this article you'll learn what APIs are, and how to interact with a REST API using Postman.
+
 ## Prerequisites
 You have basic knowledge of how the internet works, and basic knowledge of HTML, CSS and Javascript.
 
@@ -91,7 +93,7 @@ Once you have you API key, you can move on to testing API calls.
 
 1. If this is your first time launching Postman, a welcome screen appears. Click Create a request.
 2. Insert the following endpoint into the box next to GET: https://api.openweathermap.org/data/2.5/weather
-3. Click the Params tab (below the box where you inserted the endpoint) and then add the following three parameters in the key and value rows:
+3. Click the Params tab, below the box where you inserted the endpoint, and then add these parameters in the key and value rows:
 
 <ul>
     <li>key: zip / value: 95050</li>

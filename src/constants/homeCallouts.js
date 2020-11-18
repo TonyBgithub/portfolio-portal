@@ -1,0 +1,33 @@
+const HOME_CALLOUTS = [
+    {
+      BADGE: 'About',
+      TITLE: 'About Me',
+      TAG: '',
+      COPY:'Learn about me and find samples of my work.',
+      LINK: '/bio/about-me/',
+    },
+    {
+      BADGE: 'APIs',
+      TITLE: 'Antora Developer Portal',
+      TAG: '',
+      COPY: 'Explore my developer portal, built with Antora and AsciiDoc.',
+      LINK: 'https://tb-apidocs.netlify.app/docs-site/1.0/',
+    },
+    {
+      BADGE: 'Sample Article',
+      TITLE: 'Getting Started with APIs',
+      TAG: '',
+      COPY: 'Learn the basics of API documentation.',
+      LINK: '/api-documentation/',
+    },
+    {
+      BADGE: 'Inspiration',
+      TITLE: 'Dev Portal Award Platform',
+      TAG: '',
+      COPY: 'I am always looking for improvement. See where I get my inspiration from.',
+      LINK: 'https://devportalawards.org/nominees',
+    },
+  ]
+  
+  export default HOME_CALLOUTS;
+  

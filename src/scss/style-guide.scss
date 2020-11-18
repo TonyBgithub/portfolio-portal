@@ -1,0 +1,16 @@
+// import global styles
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/reset';
+@import 'global/main';
+@import 'global/typography';
+@import 'global/grid';
+@import 'global/utilities';
+
+//import components 
+@import 'components/breadcrumbs';
+@import 'components/badges';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/text-inputs';
+@import 'components/textareas';

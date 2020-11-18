@@ -1,0 +1,119 @@
+@import "../../scss/global/variables";
+@import "../../scss/global/mixins";
+
+.nav-wrap {
+  background: $white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+//This aligns the aside nav and layout-content. 
+//Without that margin-bottom the title starts too close to the subnav
+.nav-wrap.has-sub-nav { 
+  margin-bottom: $scaleup-6;
+}
+
+.nav-main {
+  position: relative;
+  padding: 2px $scale-base-up-04;
+  display: flex;
+  border-bottom: 1px solid rgba(#a8b9d5, 0.6);
+  box-shadow: 0 2px 14px 0 rgba(122, 150, 195, 0.1);
+  z-index: 2;
+}
+
+.nav-main__logo {
+  padding: $scaleup-4 0;
+  background-image: url("../../img/logo.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 220px auto;
+  display: block;
+  width: 334px;
+  text-align: right;
+  position: relative;
+}
+
+.nav-main__help-center {
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 3px 8px 0;
+  border-left: 2px solid $slate-40;
+  color: $slate-40;
+  position: absolute;
+  line-height: 1;
+  left: 242px;
+  top: 30px;
+  font-size: 18px;
+  @include colfax(600);
+
+  @media (max-width: $width-medium) {
+    display:none;
+  }
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 $scale-base-up-06;
+}
+
+.nav-main__plain {
+  color: $dark-blue;
+  padding: $scale-base-up-02 0;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.nav-secondary__link {
+  color: $secondary;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+
+  .nav-item {
+    margin: 0;
+  }
+}
+
+.nav-right .nav-item--btn {
+  font-size: 14px;
+  text-align: center;
+  margin-left: $scale-base-up-02;
+
+  a {
+    display: inline-block;
+    padding: $scale-base-down-01 $scale-base-up-02;
+    font-weight: 400;
+    color: $white;
+    text-decoration: none;
+    background-color: $primary;
+    border: 2px solid $primary;
+    border-radius: $scale-base-down-03;
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+
+//Note that the closing bracket is placed only after the & since it applies to the a
+    &:hover {
+      color: $white;
+      background-color: $primary-hover;
+      border-color: $primary-hover;
+    }
+  }
+}

@@ -10,8 +10,7 @@
 Hi! Welcome to my GitHub! This is the repo for my documentation portal. To see a live demo, follow this link: https://tb-documentation-portal.netlify.app/
 
 ## Inspiration
-I built this portal using Gatsby and got inspiration from Twilio's SendgGrid docs.
-I used their style guide since my aim was to focus on integration more than design.
+I built this portal using Gatsby, inspired from Twilio's SendgGrid docs. I used their style guide since my aim was to focus on integration more than design.
 
 ## Refactoring
 I have rewritten parts of the code to include React hooks and replaced class components with functional components.

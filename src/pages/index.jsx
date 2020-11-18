@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby';
 // import config from '../../data/SiteConfig';
-// import SEO from '../components/SEO';
+import SEO from '../components/SEO';
 // import Search from '../components/Search';
 import Layout from "../components/layout";
 import "./index.scss";
@@ -43,7 +43,7 @@ function renderCallouts() {
   return (
     <Layout >
       <div className="docs-home">
-      {/* SEO */}
+      <SEO postNode={props} title={config.siteTitle} description="TBCodeLab Documentation Home" />
           <div className="search-hero ta-center color-white">
             <div className="container">
               <div className="search-hero__bg">

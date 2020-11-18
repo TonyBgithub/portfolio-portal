@@ -7,7 +7,7 @@
 <h1 align="center">
   Documentation Portal
 </h1>
-Hi! Welcome to my documentation portal's repository!
+Hi! Welcome to my GitHub!
 
 ## Inspiration
 I built this portal using Gatsby and got inspiration from Twilio's SendgGrid docs.

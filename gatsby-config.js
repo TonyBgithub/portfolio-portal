@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Knowledge Center`,
+    title: 'TBCodelab Documentation Portal',
+    description: 'A documentation portal built with Gatsby',
+    author: 'Tony Briget',
+    ogImage: 'src/img/social-media.png',
+    url: 'https://tb-documentation-portal.netlify.app/',
   },
   plugins: [
     'gatsby-plugin-sass',

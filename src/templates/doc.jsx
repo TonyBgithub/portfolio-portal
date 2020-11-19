@@ -37,7 +37,7 @@ const postNode = data.doc; //the data from query will be passed to SEO as parame
 return (
     <Layout location={props.location} subNav={true}> 
       <div className="container-lg doc-wrap">
-      <SEO postNode={postNode}  /> 
+      <SEO title={postNode.frontmatter.title} description={postNode.frontmatter.description} />
       <AsideMenu asideLinks={getLinks()} />
         <div className="doc-main">
         <h1 dangerouslySetInnerHTML= {{__html:postNode.fields.title}} />
@@ -61,6 +61,7 @@ export const pageQuery = graphql`
       fileAbsolutePath
       frontmatter {
         title
+        description
       }
       fields {
         slug

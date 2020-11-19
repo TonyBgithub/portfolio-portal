@@ -5,11 +5,9 @@
 # description: Short bio and samples of my work
 # keywords: bio, biography, samples, work
 title: About me
-weight: 0
-group: bio
-layout: page
 navigation:
   show: true
+description: Short Bio and samples of my work.
 ---
 
 ## Bio

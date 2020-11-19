@@ -2,6 +2,7 @@
 title: "Getting Started with API documentation"
 navigation:
   show: true
+description: Learn what APIs are, and how to interact with REST APIs.
 ---
 
 In this article you'll learn what APIs are, and how to interact with a REST API using Postman.

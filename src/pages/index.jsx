@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby';
-import config from '../../data/SiteConfig';
-// import SEO from '../components/SEO';
-import { Helmet } from 'react-helmet';
+// import config from '../../data/SiteConfig';
+import SEO from '../components/SEO';
 // import Search from '../components/Search';
 import Layout from "../components/layout";
 import "./index.scss";
@@ -44,13 +43,7 @@ function renderCallouts() {
   return (
     <Layout >
       <div className="docs-home">
-      <Helmet>
-    <title>{config.siteTitle}</title>
-    <meta property="og:title" content={config.siteTitle} />
-    <meta property="og:description" content={config.siteDescription} />
-    <meta property="og:image" content={config.ogImage} />
-    <meta property="og:url" content={config.siteUrl} />
-    </Helmet>
+      <SEO />
           <div className="search-hero ta-center color-white">
             <div className="container">
               <div className="search-hero__bg">

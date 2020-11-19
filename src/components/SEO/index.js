@@ -1,4 +1,4 @@
-import metaImage from '../img/social-media.jpg';
+import metaImage from '../../img/social-media.jpg';
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"

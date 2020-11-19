@@ -42,8 +42,8 @@ function renderCallouts() {
   //We use the layout without the subNav (compare to docs.jsx)
   return (
     <Layout >
+    <SEO />
       <div className="docs-home">
-      <SEO />
           <div className="search-hero ta-center color-white">
             <div className="container">
               <div className="search-hero__bg">

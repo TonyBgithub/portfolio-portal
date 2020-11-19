@@ -20,10 +20,10 @@ return (
 
     <div className="nav-right">
       <div className="nav-item">
-        <a className="nav-secondary__link" href ="https://github.com/TonyBgithub/portfolio-portal">Edit on GitHub</a>
+        <a className="nav-secondary__link" href ="https://github.com/TonyBgithub/portfolio-portal" target="_blank">Edit on GitHub</a>
       </div>
       <div className="nav-item nav-item--btn">
-        <a className="nav-main__login" href ="https://github.com/TonyBgithub/portfolio-portal/issues">Report Issue</a>
+        <a className="nav-main__login" href ="https://github.com/TonyBgithub/portfolio-portal/issues" target="_blank">Report Issue</a>
       </div>
     </div>
 </nav>)

@@ -20,7 +20,7 @@ function renderCallouts() {
     const cardClass = `card col-home-callout home-callout callout--${card.BADGE}`;
     // Handle internal and external links in cards
     const cardLinkButton = card.LINK.substring(0, 4) === 'http'
-      ? <a href={card.LINK} className="btn btn-primary center">Let's See it!</a>
+      ? <a href={card.LINK} target="_blank" className="btn btn-primary center">Let's See it!</a>
       : <Link to={card.LINK} className="btn btn-primary center">Read Article</Link>;
 
     return (

@@ -3,7 +3,7 @@ module.exports = {
     title: 'TBCodelab Documentation Portal',
     description: 'A documentation portal built with Gatsby',
     author: 'Tony Briget',
-    ogImage: 'src/img/social-media.png',
+    ogImage: 'https://ibb.co/tMVYCHq',
     url: 'https://tb-documentation-portal.netlify.app/',
   },
   plugins: [

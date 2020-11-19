@@ -7,18 +7,18 @@ const HOME_CALLOUTS = [
       LINK: '/bio/about-me/',
     },
     {
-      BADGE: 'APIs',
-      TITLE: 'Antora Developer Portal',
-      TAG: '',
-      COPY: 'Explore my developer portal, built with Antora and AsciiDoc.',
-      LINK: 'https://tb-apidocs.netlify.app/apidocs/1.0/',
-    },
-    {
       BADGE: 'Sample Article',
       TITLE: 'Getting Started with APIs',
       TAG: '',
       COPY: 'Learn the basics of API documentation.',
       LINK: '/api-documentation/',
+    },
+    {
+      BADGE: 'APIs',
+      TITLE: 'Antora Developer Portal',
+      TAG: '',
+      COPY: 'Explore my developer portal, built with Antora and AsciiDoc.',
+      LINK: 'https://tb-apidocs.netlify.app/apidocs/1.0/',
     },
     {
       BADGE: 'Inspiration',

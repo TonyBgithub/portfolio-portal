@@ -22,7 +22,7 @@ That is how an API works. It acts as an intermediary between the user (who sends
 
 ### Discovering REST APIs
 
-There are several types of APIs, but in this introduction we will be using a REST API called OpenWeatherMap.
+There are several types of APIs, but in this introduction we will be using a REST API called OpenWeatherMap API.
 REST is the acronym for Representational State Transfer. A REST API allows two computers to communicate over HTTP, just like web browsers communicate with servers.
 
 ### Concrete API examples
@@ -88,7 +88,7 @@ Postman is a software development tool. It enables people to test calls to APIs 
 
 Postman is now ready for use.
 
-## Sending Requests
+## Sending Requests with Postman
 
 Once you have you API key, you can move on to testing API calls. 
 

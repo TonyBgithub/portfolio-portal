@@ -7,13 +7,13 @@
 <h1 align="center">
   Documentation Portal
 </h1>
-Hi! Welcome to my GitHub! This is the repo for my documentation portal. To see a live demo, follow this link: https://tb-documentation-portal.netlify.app/
+Hi! Welcome to my GitHub! This is the repository that hosts my documentation portal. To see a live demo, follow this link: https://tb-documentation-portal.netlify.app/
 
 ## Inspiration
 I built this portal using Gatsby, inspired from Twilio's SendgGrid docs. 
 Since my focus was on integration for this project, I used Twilio's CSS style guide for the design.
 
 ## Refactoring
-I have rewritten parts of the code to include React hooks and replaced class components with functional components.
+I've rewritten parts of the code to include React hooks and replaced class components with functional components.
 
 Thanks for taking the time to review my work!

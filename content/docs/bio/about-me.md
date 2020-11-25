@@ -26,7 +26,7 @@ Last year, part of my work at SAP involved shooting and editing documentation vi
 
 
 ## Contact
-If you are interested in working with me, you can contact me on LinkedIn. 
+If you're interested in working with me, you can contact me on LinkedIn. 
 
 Thank you for taking the time to review my work! 
 

@@ -33,6 +33,10 @@
   width: 334px;
   text-align: right;
   position: relative;
+
+  @media (max-width: $width-small) {
+    display:none;
+  }
 }
 
 .nav-main__help-center {
@@ -47,8 +51,12 @@
   top: 30px;
   font-size: 18px;
   @include colfax(600);
-
+  
   @media (max-width: $width-medium) {
+    display:none;
+  }
+
+  @media (max-width: $width-small) {
     display:none;
   }
 }

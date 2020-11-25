@@ -25,7 +25,7 @@ function  getLinks() {
     return headers.map((header) => {
       const link = {};
       link.tagName = header.tagName;
-      link.textNode = header.children[1] ? header.children[1].value : ''; //the plugin creates a link as headerchildren[0], we get the text from the h2
+      link.textNode = header.children[1] ? header.children[1].value : ''; //the markdown-autolink-header plugin creates a link as headerchildren[0], we get the text from the h2
       link.id = header.properties.id;
       return link;
     });

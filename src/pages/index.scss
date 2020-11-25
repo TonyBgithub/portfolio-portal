@@ -17,6 +17,7 @@ $card-gutter: 40px;
 .search-hero {
   background: $sg-blue-20;
   background: $gradient-hero;
+  
 }
 
 .search-hero.star-wars {
@@ -31,6 +32,9 @@ $card-gutter: 40px;
 .search-hero__bg {
   padding: $scaleup-6 0 21rem 0;
   background: url('../img/help-center-hero.svg') no-repeat;
+    @media (max-width: $width-small) {
+      background: inherit;
+    }
   background-position: bottom center;
   background-size: 400px;
 
@@ -143,6 +147,9 @@ $card-gutter: 40px;
 
   @media (max-width: $width-small) {
     grid-template-columns: 1fr;
+    &:last-child {
+      margin-bottom: $scaleup-10;
+    }
   }
 }
 

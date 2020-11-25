@@ -95,9 +95,9 @@ Once you have you API key, you can move on to testing API calls.
 1. If this is your first time launching Postman, a welcome screen appears. Click Create a request.
 2. Insert the following endpoint into the box next to GET: https://api.openweathermap.org/data/2.5/weather
 3. Click the Params tab, below the box where you inserted the endpoint, and then add these parameters in the key and value rows:
-  - key: zip / value: 95050
-  - key: units / value: imperial
-  - key: appid/ value: a98b2a504822e5a5420ecbf6bb49f83d.
+    * key: zip / value: 95050
+    * key: units / value: imperial
+    * key: appid/ value: a98b2a504822e5a5420ecbf6bb49f83d.
 
 The above value for appid is a public API key which is safe to use. You can also use yours.
 

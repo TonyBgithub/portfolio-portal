@@ -9,10 +9,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     {
-      // The filesystem source plugin lets you query data about files
-      //Querying from source files using the plugin gatsby-source-filesystem. It is a source plugin.
-      //The plugin allows you to bring data into Gatsby's data system and then use queries at the bottom
-      //of pages to use the data.
+      //source plugin
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `docs`,

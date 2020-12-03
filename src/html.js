@@ -12,6 +12,7 @@ export default function HTML (props) {
         <meta property="og:description" content="A documentation portal built with Gatsby" />
         <meta property="og:title" content="Tony Briget's Documentation Portal" />
         <meta property="og:url" content="https://tb-documentation-portal.netlify.app/" />
+        <meta property="og:type" content="website" />
           <meta charSet="utf-8" />
           <meta
             name="viewport"

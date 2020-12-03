@@ -12,7 +12,7 @@ return (
     <div className="search-docs">
       <form>
         <div className="input-text-wrap is-search">
-          <span id="query" className="form-control search-hero__query search-query st-default-search-input" name="q" >/!\ Search feature coming soon</span> 
+          <span id="query" className="form-control search-hero__query search-query st-default-search-input" name="q" >/!\ Search disabled</span> 
         </div>
       </form>
     </div>

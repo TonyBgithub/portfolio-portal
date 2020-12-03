@@ -15,9 +15,9 @@ const HOME_CALLOUTS = [
     },
     {
       BADGE: 'APIs',
-      TITLE: 'Antora Developer Portal',
+      TITLE: 'Developer Portal with API reference',
       TAG: '',
-      COPY: 'Explore my developer portal, built with Antora and AsciiDoc.',
+      COPY: 'Explore my other developer portal with embedded API reference',
       LINK: 'https://tb-apidocs.netlify.app/apidocs/1.0/',
     },
     {

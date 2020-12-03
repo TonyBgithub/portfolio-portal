@@ -7,12 +7,13 @@ export default function HTML (props) {
     return (
       <html lang="en">
         <head>
-          {props.headComponents}
           <meta charSet="utf-8" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <meta property="og:image" content="https://tb-documentation-portal.netlify.app/social-media.png" />
+          {props.headComponents}
         </head>
         <body>
           {props.preBodyComponents}

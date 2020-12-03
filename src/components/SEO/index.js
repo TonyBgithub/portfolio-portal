@@ -21,7 +21,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description;
-  const siteImage = site.siteMetadata.ogImage;
+  // const siteImage = site.siteMetadata.ogImage;
 
 
   return (
@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: siteImage,
+          content: "https://tb-documentation-portal.netlify.app/social-media.png",
         },
         {
           name: `twitter:card`,

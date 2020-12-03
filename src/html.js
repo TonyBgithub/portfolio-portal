@@ -8,6 +8,7 @@ export default function HTML (props) {
       <html lang="en">
         <head>
         <meta property="og:image" content="https://tb-documentation-portal.netlify.app/social-media.png" />
+        <meta property="og:description" content="A documentation portal built with Gatsby" />
           <meta charSet="utf-8" />
           <meta
             name="viewport"

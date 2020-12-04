@@ -10,7 +10,7 @@ const HOME_CALLOUTS = [
       BADGE: 'Sample Article',
       TITLE: 'Getting Started with APIs',
       TAG: '',
-      COPY: 'Learn the basics of API documentation.',
+      COPY: 'Learn what APIs are, and how to interact with them.',
       LINK: '/api-documentation/',
     },
     {

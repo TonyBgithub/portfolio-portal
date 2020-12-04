@@ -1,11 +1,11 @@
 ---
-title: "Getting Started with API documentation"
+title: "Getting Started with APIs"
 navigation:
   show: true
 description: Learn what APIs are, and how to interact with REST APIs.
 ---
 
-In this article you'll learn what APIs are, and how to interact with a REST API using Postman.
+In this article you'll learn what APIs are, and you'll send your first API call using Postman.
 
 ## Prerequisites
 You have basic knowledge of how the internet works, and basic knowledge of HTML, CSS and Javascript.
@@ -74,7 +74,7 @@ Before you actually send requests and put the weather forecast on your website, 
 
 An API key is an authentication code that identifies its user. API keys help track and control how the interface is being utilized and help prevent abuse of the API.
 
-To get your API key go to the <a href="https://openweathermap.org/appid">OpenWeatherMap website</a> and follow the instructions.
+To get your API key, go to the <a href="https://openweathermap.org/appid">OpenWeatherMap website</a> and follow the instructions.
 
 ### Installing Postman
 

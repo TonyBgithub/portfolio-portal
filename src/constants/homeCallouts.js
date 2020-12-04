@@ -24,7 +24,7 @@ const HOME_CALLOUTS = [
       BADGE: 'Inspiration',
       TITLE: 'Dev Portal Award Platform',
       TAG: '',
-      COPY: 'I am always looking for improvement. See where I get my inspiration from.',
+      COPY: 'I\'m always looking for improvement. See where I get my inspiration from.',
       LINK: 'https://devportalawards.org/nominees',
     },
   ]

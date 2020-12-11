@@ -36,8 +36,7 @@ Here is a request example:
 ```
 https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOURAPIKEY&units=metric"
 ```
-
-In the above request, you would replace YOURAPIKEY by your actual API key (more on that in the next section).
+</br>In the above request, you would replace YOURAPIKEY by your actual API key (more on that in the next section).
 
 Here is a sample of the response we get, in JSON format:
 ```

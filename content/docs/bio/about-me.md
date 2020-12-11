@@ -11,7 +11,7 @@ description: Short Bio and samples of my work.
 ---
 
 ## Bio
-My name is Tony Briget, I'm a technical writer and videomaker based near Paris, France. For more details, see my [LinkedIn profile](https://www.linkedin.com/in/tony-briget-52640017a/). I'm currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
+My name is Tony Briget, I'm a technical writer based near Paris, France. For more details, see my [LinkedIn profile](https://www.linkedin.com/in/tony-briget-52640017a/). I'm currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
 
 ## Samples of My Work
 

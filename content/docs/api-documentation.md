@@ -18,7 +18,7 @@ API is the acronym for Application Programming Interface, which is a software in
 
 Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
-That is how an API works. It acts as an intermediary between the user (who sends a *request*) and the web server (which then gives a *response*) by retrieving data from this server and sending it to the user.
+That is how an API works. It acts as an intermediary between the user, who sends a *request*, and the web server, which then gives a *response*, by retrieving data from this server and sending it to the user.
 
 ### Discovering REST APIs
 
@@ -27,7 +27,7 @@ REST is the acronym for Representational State Transfer. A REST API allows two c
 
 ### Concrete API examples
 
-Let's say you are making a website for a client, and they need an interactive map on their website. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
+Let's say you're making a website for a client, and they need an interactive map on their website. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
 You could also need to display the weather forecast on your website. To do that, you can use a weather API such as <a href="https://openweathermap.org/api">OpenWeatherMap</a>.
 
@@ -36,6 +36,7 @@ Here is a request example:
 ```
 https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOURAPIKEY&units=metric"
 ```
+
 In the above request, you would replace YOURAPIKEY by your actual API key (more on that in the next section).
 
 Here is a sample of the response we get, in JSON format:

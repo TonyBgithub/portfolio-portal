@@ -11,7 +11,7 @@ description: Short Bio and samples of my work.
 ---
 
 ## Bio
-My name is Tony Briget, I'm a technical writer based near Paris, France. For more details, see my [LinkedIn profile](https://www.linkedin.com/in/tony-briget-52640017a/). I'm currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
+My name is Tony Briget, I'm a technical writer based near Paris, France. For more details, see my <a href="https://www.linkedin.com/in/tony-briget-52640017a/" target="_blank">LinkedIn profile</a>. I'm currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
 
 ## Samples of My Work
 
@@ -22,7 +22,7 @@ I built this documentation website using <a href="https://www.gatsbyjs.com/" tar
 I have experience with OxygenXML and DITA but I keep an eye open for other ways to write, display and review documentation. See my other <a href="https://tb-apidocs.netlify.app/apidocs/1.0/" target="_blank">developer portal</a> hosted on Netlify.
 
 ### Videos
-Last year, part of my work at SAP involved shooting and editing documentation videos. See [my work on SAP's Youtube Channel](https://www.youtube.com/watch?v=aENAqA82wdo). 
+Last year, part of my work at SAP involved shooting and editing documentation videos. See <a href="https://www.youtube.com/watch?v=aENAqA82wdo" target="_blank">my work on SAP's Youtube Channel</a>.
 
 
 ## Contact

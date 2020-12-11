@@ -17,7 +17,7 @@ const HOME_CALLOUTS = [
       BADGE: 'APIs',
       TITLE: 'Developer Portal with API Reference',
       TAG: '',
-      COPY: 'Explore my other developer portal with embedded API reference',
+      COPY: 'Explore my other developer portal with embedded API reference.',
       LINK: 'https://tb-apidocs.netlify.app/apidocs/1.0/',
     },
     {
